@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-size: "poppins";
+}
+.container{
+    height:240px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: rgb(5, 52, 90);
+}
+.box h3{
+    padding-top: 60px;
+    padding-left: 120px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+button{
+    border: none;
+    outline:none;
+    background: transparent;
+    width: 60px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:rgb(117, 88, 7);
+    cursor: pointer;
+
+}
+ul li{
+    font-size: 17px;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.check{
+    text-decoration: line-through;
+    color:#555;
+}
